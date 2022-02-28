@@ -1,22 +1,23 @@
+import "./App.css"
+import Chatbox from "./components/Chatbox";
+import Editor from "./components/Editor";
+import Question from "./components/Question";
 
 function App() {
   return (
-    <section class="container">
-      <div class="row">
-        <div class="col-sm-4 question">
-          <h3> Question</h3>
-          <p>Lorem ipsum dolor..</p>
+    
+      <div className="row">
+        <div className="col-sm-4">
+          <Question/>
         </div>
-        <div class="col-sm-4">
-          <h3>IDE</h3>
-          <p>Lorem ipsum dolor..</p>
+        <div className="col-sm-4">
+          <Editor/>
         </div>
-        <div class="col-sm-4">
-          <h3>Chat Box</h3>
-          <p>Lorem ipsum dolor..</p>
+        <div className="col-sm-4">
+          <Chatbox/>
         </div>
       </div>
-    </section>
+   
   );
 }
 
