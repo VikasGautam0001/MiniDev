@@ -4,7 +4,7 @@ function App() {
     <section class="container">
       <div class="row">
         <div class="col-sm-4 question">
-          <h3>Question</h3>
+          <h3> Question</h3>
           <p>Lorem ipsum dolor..</p>
         </div>
         <div class="col-sm-4">
