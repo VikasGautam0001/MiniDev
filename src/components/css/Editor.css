@@ -1,4 +1,11 @@
 .textArea{
     width: 500px;
-    height: 500px;
+    height: 600px;
+}
+.run{
+    width: 220px;
+}
+
+.submit{
+    width: 220px;
 }
