@@ -18,6 +18,11 @@ const Question = () => {
             <p>
                 Print a single integer t — the maximum number of tables that can be decorated in the required manner.
             </p>
+            <h3>Examples</h3>
+            <h4>Input</h4>
+            <p>5 4 3</p>
+            <h4>Output</h4>
+            <p>4</p>
         </div>
         </>
     )
