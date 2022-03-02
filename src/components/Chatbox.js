@@ -30,7 +30,7 @@ const Chatbox = () => {
   return (
     
 
-    <div>
+    <div className="Chatbox">
         <h3 className="header">Chatbox</h3>
         <form onSubmit={onSubmit}>
             <input type="text" placeholder="Enter a message"
