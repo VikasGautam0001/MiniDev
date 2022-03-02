@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChatboxMessage = (prop) => {
   return (
-    <div>{prop.brand}</div>
+    <div>{prop.msg}</div>
   )
 }
 

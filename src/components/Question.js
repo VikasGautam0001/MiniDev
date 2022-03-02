@@ -26,7 +26,7 @@ const Question = () => {
     return (
         <>
         <h3 className='header'>Question</h3>
-        <div className='question'>
+        <div>
             <QuestionHeading Heading= {questionsList[questionNumber].Heading} />
             <QuestionDescription Description={questionsList[questionNumber].Description}/>
             <QuestionInput Input={questionsList[questionNumber].Input}/>

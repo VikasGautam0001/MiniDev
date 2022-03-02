@@ -30,7 +30,7 @@ const Chatbox = () => {
   return (
     
 
-    <div className="Chatbox">
+    <div>
         <h3 className="header">Chatbox</h3>
         <form onSubmit={onSubmit}>
             <input type="text" placeholder="Enter a message"
@@ -44,7 +44,7 @@ const Chatbox = () => {
         </form>
 
         {Messages.map((msg) =>(
-            <ChatboxMessage brand={msg} />
+            <ChatboxMessage msg={msg} />
         ))}
         
         

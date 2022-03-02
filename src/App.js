@@ -6,14 +6,14 @@ import Question from "./components/Question";
 function App() {
   return (
     
-      <div className="row">
-        <div className="col-sm-4">
+      <div className="container">
+        <div className="question">
           <Question/>
         </div>
-        <div className="col-sm-4">
+        <div className="editor">
           <Editor/>
         </div>
-        <div className="col-sm-4">
+        <div className="chatbox">
           <Chatbox/>
         </div>
       </div>
