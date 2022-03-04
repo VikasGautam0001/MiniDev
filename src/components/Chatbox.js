@@ -44,7 +44,7 @@ const Chatbox = () => {
         </form>
 
         {Messages.map((msg) =>(
-            <ChatboxMessage msg={msg} userName="Pankaj"/>
+            <ChatboxMessage msg={msg} />
         ))}
         
         
