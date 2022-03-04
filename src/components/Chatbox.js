@@ -38,13 +38,13 @@ const Chatbox = () => {
              onChange={(e) => setMessage(e.target.value)}
             />
 
-            <input type="submit" name="submit" 
+            <input type="submit" name="submit"  className='btnsend'
               value='Send'
             />
         </form>
 
         {Messages.map((msg) =>(
-            <ChatboxMessage msg={msg} />
+            <ChatboxMessage msg={msg} userName="Pankaj"/>
         ))}
         
         

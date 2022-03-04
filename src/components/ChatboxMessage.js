@@ -1,8 +1,9 @@
 import React from 'react'
 
-const ChatboxMessage = (prop) => {
+const ChatboxMessage = ({msg}) => {
+
   return (
-    <div>{prop.msg}</div>
+    <div>{msg}</div>
   )
 }
 
