@@ -2,7 +2,7 @@ import React from 'react'
 import Chatbox from './Chatbox'
 import Editor from './Editor'
 import Question from './Question'
-import './RoomPage.css'
+import './css/RoomPage.css'
 const RoomPage = () => {
     return (
         <div className="RoomPage">
