@@ -1,5 +1,5 @@
 
-import './css/Question.css'
+import './Question.css'
 import QuestionDescription from './QuestionComponent/QuestionDescription'
 import QuestionHeading from './QuestionComponent/QuestionHeading'
 import QuestionInput from './QuestionComponent/QuestionInput'

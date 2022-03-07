@@ -1,26 +1,19 @@
+import React from 'react';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import "./App.css"
-import "./components/css/Chatbox.css"
-import "./components/css/Editor.css"
-import "./components/css/Chatbox.css"
-import Chatbox from "./components/Chatbox";
-import Editor from "./components/Editor";
-import Question from "./components/Question";
+import CreateRoomPopup from "./components/CreateRoomsComponent/CreateRoomPopup";
+import RoomPage from "./components/RoomPageComponent/RoomPage";
 
 function App() {
   return (
-    
-      <div className="main">
-        <div className="question">
-          <Question/>
-        </div>
-        <div className="editor">
-          <Editor/>
-        </div>
-        <div className="chatbox">
-          <Chatbox/>
-        </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route path="/" element= {<CreateRoomPopup/>} />
+          <Route path = "/room" element = {<RoomPage/>}/>
+        </Routes>
       </div>
-   
+    </BrowserRouter>
   );
 }
 

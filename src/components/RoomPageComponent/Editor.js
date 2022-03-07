@@ -1,4 +1,4 @@
-import "./css/Editor.css"
+import "./Editor.css"
 
 const Editor = () => {
   return (

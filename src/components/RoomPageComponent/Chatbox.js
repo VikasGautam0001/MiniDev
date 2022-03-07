@@ -1,6 +1,5 @@
-
 import {useState,useEffect} from 'react'
-import "./css/Chatbox.css"
+import "./Chatbox.css"
 import ChatboxMessage from "./ChatboxMessage"
 
 const Chatbox = () => {
